@@ -1,12 +1,7 @@
-﻿using System.Text;
-
-#pragma warning disable AppendParameter
-static class FileNameBuilder
+﻿static class Class
 {
-
-    public static (Action<StringBuilder>?, Action<StringBuilder>?) GetParameterText()
+    public static (string?, string?) Method()
     {
         return (null, null);
     }
-
 }
